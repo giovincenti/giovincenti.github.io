@@ -1,0 +1,33 @@
+body {
+	/*background-color: #fbf5f3;*/
+	background-color: white;
+	/*color: #353238;*/
+	color:black;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:courier;
+}
+
+h1 {
+	color: #92140c;
+	/*margin-left: 5px;*/
+}
+
+h2 {
+	color: #653239;
+	margin-left: 5px;
+}
+
+.important {
+	color: #dc493a;
+	font-weight:bold;
+}
+
+a {
+	color: #4392f1;
+}
+
+ul {
+	list-style: none;
+}
