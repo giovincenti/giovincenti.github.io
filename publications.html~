@@ -17,7 +17,7 @@
     </head>
 
     <body>
-    	<p><div class="articleTitle">Teaching introductory programming through reusable learning objects: a pilot study.</div>This paper describes a pilot study that examines the perceived effectiveness and usability of a dynamic reusable learning object that enriches lecture material in an introductory programming course. In particular, we focus on the topic of looping by providing students an interactive tool that lets them simulate and review the execution of code. The results suggest that students in CS0 courses may utilize this tool for learning about looping, while CS1 students are more likely to use it for reviewing concepts that they learned in class. The findings of this pilot study have enabled us to focus on which aspects to improve for the next set of reusable learning objects.</p>
+    	<p><span>Teaching introductory programming through reusable learning objects: a pilot study</span> This paper describes a pilot study that examines the perceived effectiveness and usability of a dynamic reusable learning object that enriches lecture material in an introductory programming course. In particular, we focus on the topic of looping by providing students an interactive tool that lets them simulate and review the execution of code. The results suggest that students in CS0 courses may utilize this tool for learning about looping, while CS1 students are more likely to use it for reviewing concepts that they learned in class. The findings of this pilot study have enabled us to focus on which aspects to improve for the next set of reusable learning objects.</p>
     	
     	<a href="./data.html">Datasets and Data Repositories</a><br />
     	<a href="./index.html">Home</a>

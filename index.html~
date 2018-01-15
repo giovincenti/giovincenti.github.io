@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Home - Giovanni Vincenti</title>
+        <title>Giovanni Vincenti</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -14,52 +14,16 @@
           ga('send', 'pageview');
 
         </script>
-        <!-- <style>
-	    ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #666;
-	    }
-
-	    li {
-		float: left;
-	    }
-
-	    li a {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-	    }
-
-	    li a:hover:not(.active) {
-		background-color: #111;
-	    }
-
-	    .active {
-		background-color: #92140c;
-	    }
-    </style> -->
     </head>
 
     <body>
-        
-        <!-- <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">Research</a></li>
-            <li><a href="#contact">UB Resources</a></li>
-            <li><a href="#about">About</a></li>
-        </ul> -->
 
         <h1>Giovanni Vincenti</h1>
         
         <img src="./images/GVincenti.jpg" alt="Giovanni Vincenti" />
         
         <p>
-        		giovanni.vincenti[at]gmail.com
+        		giovanni.vincenti@gmail.com
         </p>
 
         <p>I joined the <a href="http://www.ubalt.edu/ait" target="_blank">University of Baltimore</a> in 2013 as Assistant Professor. Currently I am the Program Director for the degree of Applied Information Technology. Before coming to UB, I spent many years at <a href="https://www.towson.edu/fcsm/departments/computerinfosci/" target="_blank">Towson University</a> as Lecturer and Associate Director of the Master's Program in Applied Information Technology. The primary focus of my research revolves around e-learning solutions for programming language education, creating material that students can utilize to learn and review key concepts in multiple programming languages. I also conduct research on applications of fuzzy sets in various fields.</p>
@@ -67,31 +31,24 @@
         <h2>Professional networking</h2>
 
         <ul>
-            <li><a href="https://arxiv.org/find/cs/1/au:+Vincenti_G/0/1/0/all/0/1" target="_blank">arXiv</a></li>
             <li><a href="https://www.linkedin.com/in/giovanni-vincenti-71782b5" target="_blank">LinkedIn</a></li>
-            <!-- <li><a href="https://twitter.com/giovincenti?lang=en" target="_blank">Twitter</a></li> -->
+            <li><a href="https://twitter.com/giovincenti?lang=en" target="_blank">Twitter</a></li>
             <li><a href="https://www.researchgate.net/profile/Giovanni_Vincenti" target="_blank">ResearchGate</a></li>
             <li><a href="https://scholar.google.com/citations?user=2wB5WG0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+            <li><a href="https://arxiv.org/find/cs/1/au:+Vincenti_G/0/1/0/all/0/1" target="_blank">arXiv</a></li>
         </ul>
         
-        <h2>Social Media</h2>
+        <h2>Social media</h2>
 
         <ul>
-            <li><a href="https://twitter.com/giovincenti" target="_blank">Twitter</a></li>
-        </ul>
-        
-        <h2>Photography</h2>
-
-        <ul>
-            <li><a href="https://500px.com/giovincenti" target="_blank">500px</a></li>
             <li><a href="https://www.flickr.com/photos/gio_vincenti/" target="_blank">Flickr</a></li>
-            <li><a href="https://www.instagram.com/giovincenti78/" target="_blank">Instagram</a></li>
+            <li><a href="https://500px.com/giovincenti" target="_blank">500px</a></li>
+            <li><a href="https://twitter.com/giovincenti" target="_blank">Twitter</a></li>
         </ul>
 
         <!-- <p>Hey there! <span class="important">This is something important!</span> This is not that important.</p> -->
 
-        <a href="./data.html">Datasets and Data Repositories</a><br />
-        <a href="./publications.html">Publications</a>
+        <a href="./data.html">Datasets and Data Repositories</a>
 
     </body>
 </html>
