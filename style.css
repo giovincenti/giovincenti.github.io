@@ -36,3 +36,33 @@ ul {
 	list-style: none;
 	padding-left: 10px;
 }
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+li.menu {
+    float: left;
+}
+
+li.menu a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+li.menu a:hover {
+    background-color: firebrick;
+}
+
+li.active {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
