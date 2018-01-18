@@ -3,10 +3,10 @@ body {
 	background-color: white;
 	/*color: #353238;*/
 	color:black;
-	width:95%;
+	width:1000px;
 	margin-left:auto;
 	margin-right:auto;
-	font-family:courier;
+	font-family:helvetica,times,courier;
 }
 
 h1 {
