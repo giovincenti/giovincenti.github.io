@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>TippyTaps | Clickety Clack</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            
+            textarea {
+                width: 750px;
+                height: 125px;
+                border: 1px solid;
+                resize: none;
+            }
+            
+            textarea[readonly] {
+                background-color: whitesmoke;
+            }
+        </style>
+        <script>
+            // Create some random number that identifies the users
+            
+            // Format: text area | event type | key code (ASCII value) | timestamp
+            var key_events = [];
+            
+            // This will store mouse events (movement and clicks)
+            var mouse_events = [];
+            
+            // This function is called any time a key is pressed.
+            function keyboardAction(k, et) {
+                var code = k.which || k.keyCode; // This code contains the ASCII value of the key pressed.
+                key_events.push(et + "|" + code + "|" + (new Date()).getTime()); // Also look into microseconds
+                
+                // Outputting the events in the log textarea and sliding the scrollbar to the bottom
+                document.getElementById("log_area").value = key_events;
+                var textarea = document.getElementById("log_area");
+                textarea.scrollTop = textarea.scrollHeight;
+            }
+            
+            // This may not be necessary, in case someone hits something by accident.
+            function clear_areas() {
+                document.getElementById('area_one').value="";
+                document.getElementById('log_area').value="";
+            }
+            
+            // TODO: Try to prevent the user navigating away from this page through JavaScript.
+        </script>
+    </head>
+
+    <body onload="clear_areas();">
+        <h1 onclick="clear_areas();">TippyTaps | Clickety Clack</h1>
+        
+        <p>Tell me something that you remember:</p>
+        <textarea id="area_one" onkeydown="keyboardAction(event, 'areaOne|keydown');" onkeyup="keyboardAction(event, 'areaOne|keyup');" onkeypress="keyboardAction(event, 'areaOne|keypress');"></textarea>
+        
+        <p>Tell me something that you invented:</p>
+        
+        <p>Tell me something that you just learned:</p>
+        
+        <p>Tell me something that you are copying:</p>
+        
+        <p>Log</p>
+        <textarea id="log_area" readonly></textarea>
+    </body>
+
+</html>

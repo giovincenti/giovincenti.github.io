@@ -1,0 +1,15 @@
+Track the usage of the mouse.
+
+Also track the speed of typing. Different situations, like coming up with a story, trying to copy some text, and answering questions to which you know the answer, and questions to something you just learned? Maybe turn it into a web browser extension?
+
+Something that they recall
+- Ask the user to write about some event in their life
+
+Something that they just learned
+- Show the reader a paragraph or two, then ask them to summarize
+
+Something that they invented
+- Give the user a writing prompt and then ask them to write a paragraph
+
+Something they are copying
+- Give the user a paragraph and ask them to rewrite it without copy/paste
