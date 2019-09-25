@@ -28,6 +28,10 @@ h2 {
 	font-weight: bold;
 }
 
+.articleAuthors, .articlePublication {
+	font-style: italic;
+}
+
 a {
 	color: #4392f1;
 }
